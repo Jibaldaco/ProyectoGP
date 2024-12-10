@@ -67,7 +67,7 @@ if (empty($_SESSION['active'])) {
                             <div class="sb-nav-link-icon text-warning"><i class="fas fa-user"></i></div>
                             Usuarios
                         </a>
-                        <a class="nav-link" href="\punto\src">
+                        <a class="nav-link" href="\proyectoGP\src">
                             <div class="sb-nav-link-icon text-warning"><i class="fas fa-folder"></i></div>
                             Panel
                         </a>

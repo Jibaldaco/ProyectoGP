@@ -22,7 +22,7 @@ if (!empty($_SESSION['active'])) {
                 $_SESSION['idUser'] = $dato['idusuario'];
                 $_SESSION['nombre'] = $dato['nombre'];
                 $_SESSION['user'] = $dato['usuario'];
-                header('location: \punto\src\ventas.php');
+                header('location: \proyectoGP\src\ventas.php');
             } else {
                 $alert = '<div class="alert alert-danger" role="alert">
                 Usuario o Contraseña Incorrecta
